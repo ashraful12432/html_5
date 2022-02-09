@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		table{border-collapse: collapse;}
+		table,td,th{border: 1px solid;}
+		td,th{width:50px ;}
+		thead{background-color: red;}
+		 form ar td th {border:none;}
+	</style>
+
+
+</head>
+<body>
+	<h1>simple table</h1>
+	<table>
+		<tr>
+			<th>id</th>
+			<td>name</td>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>a</td>
+		</tr>
+		<tr>
+			<td colspan="2">2</td>
+		
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>c</td>
+		</tr>
+	</table><br>
+	<h1>row march</h1>
+	<table>
+		<tr>
+			<td rowspan="3">t</td>
+			<td>a</td>
+			<td>b</td>
+			<td>c</td>
+		</tr>
+		<tr>
+			
+			<td>d</td>
+			<td>e</td>
+			<td>f</td>
+		</tr>
+		<tr>
+			
+			<td>g</td>
+			<td>h</td>
+			<td>i</td>
+		</tr>
+		<tr>
+			<td>j</td>
+			<td>k</td>
+			<td>l</td>
+			<td>m</td>
+			
+		</tr>
+	</table>
+	<h1>table grouping</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>id</th>
+				<th>name</th>
+				<th>address</th>
+				<th>o12365489</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>1</th>
+				<th>aj</th>
+				<th>kalihati</th>
+				<th>o12365489</th>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<th>2</th>
+				<th>maja</th>
+				<th>tangail</th>
+				<th>o12365489</th>
+			</tr>
+		</tfoot>
+	</table>
+	<hr>
+	<h1>from with table</h1>
+	<form action="" >
+		<table>
+			<tr>
+				<td>first name</td>
+				<td><input type="text" name="fname"></td>
+			</tr>
+			
+				<td>last name</td>
+				<td><input type="text" name="lname"></td>
+			</tr>
+			<tr>
+			<td>address</td>
+			<td><textarea name="address" id="" cols="30" rows="10"></textarea></td>
+			</tr>
+			
+				<td><input type="submit" name="submit" value="SUBMIT"></td>
+			
+		</table>
+	</form>
+
+</body>
+</html>
